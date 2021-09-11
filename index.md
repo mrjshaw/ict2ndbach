@@ -1,6 +1,6 @@
 ## Welcome to ICT 2nd Bach
 
-Let's begin with setting up your portfolio [setting up your portfolio](https://mrjshaw.github.io/ict2ndbach/databases/setupportfolio) to maintain and preview the content for your website in Markdown files.
+Let's begin with setting up your portfolio [setting up your portfolio](https://mrjshaw.github.io/ict2ndbach/databases/setup_portfolio) to maintain and preview the content for your website in Markdown files.
 
 This site is using [Jekyll](https://jekyllrb.com/) and GitHub Pages.
 
