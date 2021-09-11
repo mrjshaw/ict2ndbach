@@ -10,6 +10,7 @@
         <h1>Databases</h1>
         <p>There are 2.5 quintillion bytes of data created each day...</p>
         <img src="https://www.xenonstack.com/hubfs/xenonstack-list-of-popular-databases-tools.png">
+        <section>
         <script>
             
             (async () => {
@@ -21,12 +22,13 @@
                       htmlString += `<li><a href="${file.name}">${file.name}</a></li>`;
               }
               htmlString += '</ul>';
-           //   document.write(htmlString);
+              document.getElementsByTagName('section')[0].innerHTML = htmlString;
       
       
       
               
             })()
           </script>
+          </section>
     </body>
     </html>
