@@ -11,7 +11,9 @@
         <p>There are 2.5 quintillion bytes of data created each day...</p>
         <img src="https://www.xenonstack.com/hubfs/xenonstack-list-of-popular-databases-tools.png">
         <script>
-            const response = await fetch('https://api.github.com/repos/mrjshaw/ict2ndbach/contents/databases/');
+            
+            (async () => {
+              const response = await fetch('https://api.github.com/repos/mrjshaw/ict2ndbach/contents/databases/');
               const data = await response.json();
               let htmlString = '<ul>';
               for (let file of data) {
@@ -19,7 +21,12 @@
                       htmlString += `<li><a href="${file.name}">${file.name}</a></li>`;
               }
               htmlString += '</ul>';
-              document.write(htmlString);
+           //   document.write(htmlString);
+      
+      
+      
+              
+            })()
           </script>
     </body>
     </html>
